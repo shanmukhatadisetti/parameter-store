@@ -19,5 +19,7 @@ variable "parameters" {
     #jenkins
     {name = "jenkins_password" , value = "admin123" , type = "SecureString"}
 
+    ##Note: Ideally we don't keep passwords in GIT REPOS, Those will be created manually. Secret management of creating secret is most of the time is Manual
+
   ]
 }
