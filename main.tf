@@ -14,7 +14,10 @@ variable "parameters" {
 
     #dev env
 
-    {name = "dev.expense.frontend.backend_url" , value = "http://backend-dev.autonagar.in/" , type = "String"}
+    {name = "dev.expense.frontend.backend_url" , value = "http://backend-dev.autonagar.in/" , type = "String"},
+
+    #jenkins
+    {name = "jenkins_password" , value = "admin123" , type = "SecureString"}
 
   ]
 }
